@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Pretendard', sans-serif;
+    background: #f5f9ff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #0a3d62;
+}
+.source {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+input#searchInput {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+}
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+select {
+    padding: 8px;
+    font-size: 14px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+thead {
+    background-color: #dff1ff;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: #f7fbff;
+}
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
